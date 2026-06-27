@@ -1,19 +1,15 @@
 {
   "name": "SEOJIN OH / 오서진",
-  "headerTaglineOne": "안녕하세요,",
-  "headerTaglineTwo": "성균관대학교에서 화학공학을 공부하며",
-  "headerTaglineThree": "공정모사, 공정제어, CCUS 분야를 탐구하는",
-  "headerTaglineFour": "오서진입니다.",
-
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm SEOJIN OH - SKKU student",
+  "headerTaglineThree": "interested in process engineering, simulation, control,",
+  "headerTaglineFour": "and CCUS-based sustainable process systems.",
   "showBlog": false,
-  "showResume": true,
   "darkMode": true,
-  "showCursor": true,
-
   "socials": [
     {
       "id": "1",
-      "title": "GitHub",
+      "title": "Github",
       "link": "https://github.com/SAMEZ-512"
     },
     {
@@ -22,38 +18,115 @@
       "link": "mailto:seojinseojun@naver.com"
     }
   ],
-
   "projects": [
     {
       "id": "1",
-      "title": "SAF DWSIM 공정모사",
-      "description": "DWSIM을 활용해 SAF 생산 공정을 구성하고 주요 운전 변수에 따른 공정 거동을 분석했습니다.",
-      "imageSrc": "https://images.unsplash.com/photo-1581093458791-9f3c3ae9f2c0?auto=format&fit=crop&w=800&q=80",
+      "title": "SAF DWSIM Process Simulation",
+      "description": "Process Simulation",
+      "imageSrc": "https://images.unsplash.com/photo-1581093458791-9f3c3ae9f2c0?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/SAMEZ-512"
+    },
+    {
+      "id": "2",
+      "title": "Biological Reactor Digital Twin",
+      "description": "Process Control & Monitoring",
+      "imageSrc": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/SAMEZ-512"
+    },
+    {
+      "id": "3",
+      "title": "PIML-based TIM Thermal Conductivity Prediction",
+      "description": "Thermal & Flow Analysis",
+      "imageSrc": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/SAMEZ-512"
+    },
+    {
+      "id": "4",
+      "title": "CO2 Hydrogenation Catalyst Research",
+      "description": "Catalyst & Reaction Engineering",
+      "imageSrc": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=60",
       "url": "https://github.com/SAMEZ-512"
     }
   ],
-
   "services": [
     {
       "id": "1",
       "title": "Process Simulation",
-      "description": "DWSIM 기반 공정 흐름 구성과 주요 변수 변화에 따른 공정 성능 해석 경험이 있습니다."
+      "description": "DWSIM을 활용해 공정 흐름도, 반응 및 분리 공정, 에너지 흐름을 구성하고 주요 운전 변수에 따른 공정 성능을 해석한 경험이 있습니다."
+    },
+    {
+      "id": "2",
+      "title": "Process Control",
+      "description": "센서 기반 데이터 수집과 반응기 운전 관찰을 통해 온도, 가스 농도, 교반 조건 등 공정 변수의 변화를 분석했습니다."
+    },
+    {
+      "id": "3",
+      "title": "Thermal & Flow Analysis",
+      "description": "COMSOL, SimScale, Onshape를 활용해 유동, 열전달, 온도 분포를 해석하고 공정 및 장치 설계 개선 방향을 도출했습니다."
+    },
+    {
+      "id": "4",
+      "title": "CCUS & Catalysis",
+      "description": "CO2 수소화 촉매의 구조 분석 결과를 반응 전환율, 선택도, 생성물 특성과 연결해 해석하는 데 관심이 있습니다."
     }
   ],
-
-  "aboutpara": "성균관대학교에서 화학공학을 공부하며 공정모사, 공정제어, CCUS 기술에 관심을 가지고 있습니다.",
-
+  "aboutpara": "성균관대학교에서 화학공학을 공부하며 process engineering, process simulation, process control, CCUS 분야에 관심을 가지고 있습니다. SAF DWSIM 공정모사, 생물학 반응기 디지털 트윈, PIML 기반 TIM 열전도 예측, CO2 수소화 촉매 연구를 수행하며 실험, 시뮬레이션, 데이터 해석을 공정 설계 관점에서 연결하는 경험을 쌓았습니다. 앞으로 파일럿 플랜트 운전, 자동화, 공정 최적화, 지속가능 공정 기술 분야로 역량을 확장하고자 합니다.",
   "resume": {
     "tagline": "Chemical engineering student focused on process engineering, process simulation, process control, and CCUS.",
-    "description": "Experienced in process simulation, reactor design, sensor-based monitoring, thermal-flow analysis, and catalyst performance interpretation.",
-    "experiences": [],
+    "description": "I have experience in process simulation, reactor design, sensor-based monitoring, thermal-flow analysis, and catalyst performance interpretation.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2026",
+        "type": "Project",
+        "position": "SAF DWSIM Process Simulation",
+        "bullets": [
+          "Built an Alcohol-to-Jet based SAF production process using DWSIM",
+          "Modeled feed input, reaction, separation, and energy flow as an integrated process system",
+          "Adjusted H2 flow rate, reactor conditions, and residence time to reproduce target conversion and production results"
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "2026",
+        "type": "Research Project",
+        "position": "Biological Reactor Digital Twin",
+        "bullets": [
+          "Designed and fabricated a small-scale acrylic biological reactor",
+          "Collected temperature and gas data using Arduino-based sensors",
+          "Explored model-based monitoring and control for microbial decomposition processes"
+        ]
+      },
+      {
+        "id": "3",
+        "dates": "2026",
+        "type": "Simulation Project",
+        "position": "PIML-based TIM Thermal Conductivity Prediction",
+        "bullets": [
+          "Conducted thermal response simulation using SimScale and Onshape",
+          "Defined boundary conditions and input variables for heat transfer analysis",
+          "Visualized temperature distribution and heat transfer behavior for engineering design improvement"
+        ]
+      },
+      {
+        "id": "4",
+        "dates": "2026",
+        "type": "Undergraduate Research",
+        "position": "CO2 Hydrogenation Catalyst Research",
+        "bullets": [
+          "Studied CO2 hydrogenation catalysts for methanol and DME production",
+          "Analyzed TEM, XRD, TPR, and TPD characterization results",
+          "Connected catalyst structure and surface properties with reaction selectivity"
+        ]
+      }
+    ],
     "education": {
-      "universityName": "Sungkyunkwan University",
+      "universityName": "Sungkyunkwan University (SKKU)",
       "universityDate": "Chemical Engineering",
-      "universityPara": "Coursework and projects related to process simulation, reaction engineering, process control, and data-based engineering analysis."
+      "universityPara": "Coursework and projects related to thermodynamics, fluid mechanics, reaction engineering, process control, process design, process simulation, and data-based engineering analysis."
     },
     "languages": ["Python", "MATLAB"],
-    "frameworks": ["DWSIM", "COMSOL", "SimScale", "Onshape"],
-    "others": ["Arduino", "3D Printing", "TEM", "XRD", "TPR", "TPD"]
+    "frameworks": ["DWSIM", "COMSOL", "SimScale", "Onshape", "Blender"],
+    "others": ["Arduino", "3D Printing", "TEM", "XRD", "TPR", "TPD", "Process Data Analysis"]
   }
 }
