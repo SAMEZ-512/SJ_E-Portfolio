@@ -1,28 +1,29 @@
 {
-  "name": "SEOJIN OH",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm a SKKU student",
-  "headerTaglineThree": "interested in process engineering",
-  "headerTaglineFour": "with a focus on process simulation, control, and CCUS.",
+  "name": "오서진",
+  "headerTaglineOne": "안녕하세요 👋",
+  "headerTaglineTwo": "저는 성균관대학교 학생입니다",
+  "headerTaglineThree": "Process Engineering 에 관심이 있으며",
+  "headerTaglineFour": "공정모사, 공정제어, CCUS 분야를 탐구하고 있습니다.",
   "showBlog": false,
   "darkMode": true,
   "socials": [
     {
       "id": "1",
-      "title": "Github",
+      "title": "깃허브",
       "link": "https://github.com/SAMEZ-512"
     },
     {
       "id": "2",
-      "title": "Email",
+      "title": "이메일",
       "link": "mailto:seojinseojun@naver.com"
     },
     {
       "id": "3",
-      "title": "LinkedIn",
+      "title": "링크드인",
       "link": "https://www.linkedin.com/in/oh-seojin"
     }
-  ],
+  ]
+}
   "projects": [
     {
       "id": "1",
