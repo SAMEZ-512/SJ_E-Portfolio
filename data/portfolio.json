@@ -1,101 +1,101 @@
 {
-  "name": "오서진",
-  "headerTaglineOne": "안녕하세요 👋",
-  "headerTaglineTwo": "저는 성균관대학교 학생입니다",
-  "headerTaglineThree": "Process Engineering 에 관심이 있으며",
-  "headerTaglineFour": "공정모사, 공정제어, CCUS 분야를 탐구하고 있습니다.",
+  "name": "SEOJIN OH / 오서진",
+  "headerTaglineOne": "안녕하세요,",
+  "headerTaglineTwo": "성균관대학교에서 화학공학을 공부하며",
+  "headerTaglineThree": "Process Engineering, Process Simulation, Process Control,",
+  "headerTaglineFour": "CCUS 분야를 탐구하는 오서진입니다.",
+
   "showBlog": false,
+  "showResume": true,
   "darkMode": true,
+  "showCursor": true,
+
   "socials": [
     {
       "id": "1",
-      "title": "깃허브",
+      "title": "GitHub",
       "link": "https://github.com/SAMEZ-512"
     },
     {
       "id": "2",
-      "title": "이메일",
+      "title": "Email",
       "link": "mailto:seojinseojun@naver.com"
     },
     {
       "id": "3",
-      "title": "링크드인",
+      "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/oh-seojin"
     }
-  ]
-}
+  ],
+
   "projects": [
     {
       "id": "1",
-      "title": "Sustainable Aviation Fuel Process Simulation",
-      "description": "Designed an Alcohol-to-Jet based SAF production process using DWSIM and adjusted key variables such as H2 flow rate, reactor conditions, and residence time to reproduce target production and conversion results.",
-      "imageSrc": "https://images.unsplash.com/photo-1581093458791-9f3c3ae9f2c0?auto=format&fit=crop&w=400&q=60",
+      "title": "SAF DWSIM Process Simulation",
+      "description": "DWSIM을 활용해 Alcohol-to-Jet 기반 SAF 생산 공정을 구성하고, H2 유량, 반응 조건, 체류시간 등 주요 변수를 조정하며 목표 전환율과 생산량을 재현했습니다.",
+      "imageSrc": "https://images.unsplash.com/photo-1581093458791-9f3c3ae9f2c0?auto=format&fit=crop&w=800&q=80",
       "url": "https://github.com/SAMEZ-512"
     },
     {
       "id": "2",
       "title": "Biological Reactor Digital Twin",
-      "description": "Designed and fabricated a small-scale reactor, collected temperature and gas data using Arduino-based sensors, and explored model-based monitoring and control for microbial decomposition processes.",
-      "imageSrc": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=60",
+      "description": "소형 생물학 반응기를 설계·제작하고 Arduino 기반 온도 및 가스 센서 데이터를 수집하여 미생물 분해 시스템의 모니터링과 제어 가능성을 탐구했습니다.",
+      "imageSrc": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
       "url": "https://github.com/SAMEZ-512"
     },
     {
       "id": "3",
       "title": "PIML-based TIM Thermal Conductivity Prediction",
-      "description": "Built simulation models using SimScale and Onshape to analyze bidirectional TIM heat transfer behavior and visualize temperature response for engineering design improvement.",
-      "imageSrc": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=400&q=60",
+      "description": "SimScale와 Onshape를 활용해 TIM의 양방향 열전달 거동을 분석하고, 공학 설계 개선을 위한 온도 응답과 열전달 특성을 시각화했습니다.",
+      "imageSrc": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80",
       "url": "https://github.com/SAMEZ-512"
     },
     {
       "id": "4",
       "title": "CO2 Hydrogenation Catalyst Research",
-      "description": "Analyzed CO2 hydrogenation catalysts for DME and methanol production by connecting TEM, XRD, TPR, and TPD characterization results with catalytic performance and reaction selectivity.",
-      "imageSrc": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/SAMEZ-512"
-    },
-    {
-      "id": "5",
-      "title": "Pilot Plant Process Control Interest",
-      "description": "Interested in AI-based pilot plant automation, real-time process monitoring, PLC/DCS control logic, and multivariable optimization for CO2 capture and conversion processes.",
-      "imageSrc": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=400&q=60",
+      "description": "CO2 수소화 촉매의 TEM, XRD, TPR, TPD 분석 결과를 반응 성능 및 선택도와 연결하여 DME 및 메탄올 생성 특성을 해석했습니다.",
+      "imageSrc": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80",
       "url": "https://github.com/SAMEZ-512"
     }
   ],
+
   "services": [
     {
       "id": "1",
       "title": "Process Simulation",
-      "description": "Experience in building process flowsheets with DWSIM and analyzing how feed conditions, reactor variables, separation units, and energy flows affect overall process performance."
+      "description": "DWSIM 기반 공정 흐름도 구성, 반응·분리·에너지 흐름 분석, 주요 운전 변수 변화에 따른 공정 성능 해석 경험이 있습니다."
     },
     {
       "id": "2",
       "title": "Process Control & Monitoring",
-      "description": "Experience in reactor operation, Arduino-based sensor data collection, and interpreting temperature and gas data to understand system behavior."
+      "description": "센서 기반 데이터 수집, 반응기 운전 관찰, 온도 및 가스 데이터 해석을 통해 시스템 거동을 이해하고 제어 관점으로 접근했습니다."
     },
     {
       "id": "3",
       "title": "Thermal & Flow Analysis",
-      "description": "Hands-on experience with COMSOL, SimScale, and Onshape for analyzing internal gas flow, temperature distribution, and heat transfer behavior."
+      "description": "COMSOL, SimScale, Onshape를 활용해 내부 유동, 온도 분포, 열전달 거동을 분석한 경험이 있습니다."
     },
     {
       "id": "4",
       "title": "Catalyst & Reaction Analysis",
-      "description": "Experience in connecting catalyst characterization results from TEM, XRD, TPR, and TPD with reaction performance, selectivity, and process conditions."
+      "description": "촉매 구조 및 표면 특성 분석 결과를 반응 선택도, 전환율, 공정 조건과 연결해 해석하는 데 관심이 있습니다."
     }
   ],
-  "aboutpara": "I am a chemical engineering student at SKKU with a strong interest in process engineering, process control, and CCUS-related technologies. Through projects involving sustainable aviation fuel process simulation, biological reactor digital twin modeling, TIM thermal analysis, and CO2 hydrogenation catalyst research, I have developed an engineering approach that connects reaction principles, process variables, data interpretation, and practical system implementation. I am especially interested in expanding lab-scale reaction and simulation experience toward pilot plant operation, automation, and process optimization.",
+
+  "aboutpara": "성균관대학교에서 화학공학을 공부하며 공정모사, 공정제어, CCUS 기술에 관심을 가지고 있습니다. SAF 공정모사, 생물학 반응기 디지털 트윈, TIM 열전도 예측, CO2 수소화 촉매 연구를 수행하며 반응 원리, 공정 변수, 데이터 해석, 실제 시스템 구현을 연결하는 공학적 접근을 익혔습니다. 특히 실험실 규모의 반응 및 시뮬레이션 경험을 파일럿 플랜트 운전, 자동화, 공정 최적화 영역으로 확장하는 데 관심이 있습니다.",
+
   "resume": {
-    "tagline": "Chemical engineering student focused on process engineering, process control, and CCUS.",
+    "tagline": "Chemical engineering student focused on process engineering, process simulation, process control, and CCUS.",
     "description": "Experienced in process simulation, reactor fabrication, sensor-based monitoring, thermal-flow analysis, and catalyst performance interpretation.",
     "experiences": [
       {
         "id": "1",
         "dates": "2026",
         "type": "Project",
-        "position": "Sustainable Aviation Fuel Process Simulation",
+        "position": "SAF DWSIM Process Simulation",
         "bullets": [
           "Built an Alcohol-to-Jet based SAF production process using DWSIM",
-          "Modeled feed input, reaction, separation, and energy flow as one process system",
+          "Modeled feed input, reaction, separation, and energy flow as one integrated process system",
           "Adjusted H2 flow rate, reactor conditions, and residence time to reproduce target conversion and production results"
         ]
       },
@@ -105,10 +105,9 @@
         "type": "Research Project",
         "position": "Biological Reactor Digital Twin",
         "bullets": [
-          "Designed and fabricated a small-scale acrylic reactor",
-          "Built stirring structures and internal supports using 3D printing",
+          "Designed and fabricated a small-scale acrylic biological reactor",
           "Collected temperature and gas data using Arduino-based sensors",
-          "Used COMSOL to analyze internal gas flow and temperature distribution"
+          "Explored model-based monitoring and control for microbial decomposition processes"
         ]
       },
       {
@@ -119,8 +118,7 @@
         "bullets": [
           "Conducted thermal response simulation using SimScale and Onshape",
           "Defined boundary conditions and input variables for heat transfer analysis",
-          "Visualized model geometry and simulation concepts using Blender",
-          "Won the grand prize in an academic seminar with 118 participants"
+          "Visualized simulation concepts for engineering design improvement"
         ]
       },
       {
@@ -138,27 +136,10 @@
     "education": {
       "universityName": "Sungkyunkwan University",
       "universityDate": "Chemical Engineering",
-      "universityPara": "Completed coursework and projects related to thermodynamics, fluid mechanics, process control, reaction engineering, process design, process simulation, and data-based engineering analysis."
+      "universityPara": "Coursework and projects related to thermodynamics, fluid mechanics, process control, reaction engineering, process design, process simulation, and data-based engineering analysis."
     },
-    "languages": [
-      "Python",
-      "MATLAB"
-    ],
-    "frameworks": [
-      "DWSIM",
-      "COMSOL",
-      "SimScale",
-      "Onshape",
-      "Blender"
-    ],
-    "others": [
-      "Arduino",
-      "3D Printing",
-      "TEM",
-      "XRD",
-      "TPR",
-      "TPD",
-      "Process Data Analysis"
-    ]
+    "languages": ["Python", "MATLAB"],
+    "frameworks": ["DWSIM", "COMSOL", "SimScale", "Onshape", "Blender"],
+    "others": ["Arduino", "3D Printing", "TEM", "XRD", "TPR", "TPD", "Process Data Analysis"]
   }
 }
